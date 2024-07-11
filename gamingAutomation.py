@@ -11,7 +11,7 @@ screenWidth, screenHeight = pg.size()  # Get the size of the primary monitor
 
 ## Previously training models on Roboflow for object detection -> detect bubbles
 # Initialize Roboflow model
-rf = Roboflow(api_key="YOUR OWN API KEY")
+rf = Roboflow(api_key="PRIVATE API KEY")
 project = rf.workspace().project("PROJECT NAME")
 model = project.version("VERSION").model
 
